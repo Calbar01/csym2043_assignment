@@ -64,10 +64,6 @@ a{
     text-decoration: underline;
 }
 
-/* .mainNav{
-    padding-top: 25px;
-} */
-
 h1,
 h2{
     font-family: 'Esteban', serif;
@@ -454,8 +450,27 @@ text-align: center;
 }
 
 /* BURGER NAVIGATION */
+
+.burger{
+    display: none;
+}
+
 .burger div{
-    width: 10px;
-    height: 10px;
+    width: 30px;
+    height: 6px;
     background-color: black;
+    margin: 5px;
+}
+
+/* RESPONSIVE VIEW IN MOBILE */
+@media screen and (max-width: 414px){
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        width: 100%;
+        top: 8vh;
+        background-color:#C5ECF4;
+    }
+
+
 }
