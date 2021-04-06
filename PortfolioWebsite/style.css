@@ -24,11 +24,21 @@ body{
 header{
     background: #9CDDEB;
     grid-area: header;
-    display: grid;
-    grid-template: 100% 100%;
-    grid-template-rows: auto;
-    grid-template-areas: "logo logo"
-                        "mainNav mainNav";
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Esteban', serif;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
 }
 
 main{
@@ -42,12 +52,11 @@ main{
     border-radius: 50px;
 }
 
-li{
-    display: inline;
-    padding: 70px;
-    font-size: 36px;
-    font-weight: 400;
-    font-family: 'Esteban', serif;
+.nav-links li{
+    list-style: none;
+    padding-left: 70px;
+    padding-top: 25px;
+    
 }
 
 a{
@@ -55,9 +64,9 @@ a{
     text-decoration: underline;
 }
 
-.mainNav{
+/* .mainNav{
     padding-top: 25px;
-}
+} */
 
 h1,
 h2{
@@ -442,4 +451,11 @@ text-align: center;
     font-family: 'Esteban', serif;
     resize: none;
     text-align: center;
+}
+
+/* BURGER NAVIGATION */
+.burger div{
+    width: 10px;
+    height: 10px;
+    background-color: black;
 }
