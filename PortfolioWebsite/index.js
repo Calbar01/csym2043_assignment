@@ -1,4 +1,23 @@
-function modalEvent(){
+function modalEvent1(){
+    let modal = document.getElementById('weekOne');
+    modal.style.display = 'flex';
+}function modalEvent2(){
+    let modal = document.getElementById('weekOne');
+    modal.style.display = 'flex';
+}
+function modalEvent3(){
+    let modal = document.getElementById('weekOne');
+    modal.style.display = 'flex';
+}
+function modalEvent4(){
+    let modal = document.getElementById('weekOne');
+    modal.style.display = 'flex';
+}
+function modalEvent5(){
+    let modal = document.getElementById('weekOne');
+    modal.style.display = 'flex';
+}
+function modalEvent6(){
     let modal = document.getElementById('weekOne');
     modal.style.display = 'flex';
 }
@@ -11,7 +30,12 @@ function modalPopup(){
     let step5 = document.getElementById('step5');
     let step6 = document.getElementById('step6');
 
-    step1.addEventListener('click', modalEvent);
+    step1.addEventListener('click', modalEvent1);
+    step2.addEventListener('click', modalEvent2);
+    step3.addEventListener('click', modalEvent3);
+    step4.addEventListener('click', modalEvent4);
+    step5.addEventListener('click', modalEvent5);
+    step6.addEventListener('click', modalEvent6);
 }
 
 
