@@ -1,6 +1,6 @@
 function modalEvent(){
-    let step1 = document.getElementById('step1');
-    step1.style.display = 'flex';
+    let modal = document.getElementById('weekOne');
+    modal.style.display = 'flex';
 }
 
 function modalPopup(){
