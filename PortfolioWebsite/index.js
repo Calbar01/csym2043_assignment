@@ -1,3 +1,4 @@
+//MODALS
 function exit(){
     location.reload();
 }
