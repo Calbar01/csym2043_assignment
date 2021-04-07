@@ -1,26 +1,29 @@
 function modalEvent1(){
     let modal = document.getElementById('weekOne');
     modal.style.display = 'flex';
-}function modalEvent2(){
-    let modal = document.getElementById('weekOne');
+}
+
+function modalEvent2(){
+    let modal = document.getElementById('weekTwo');
     modal.style.display = 'flex';
 }
 function modalEvent3(){
-    let modal = document.getElementById('weekOne');
+    let modal = document.getElementById('weekThree');
     modal.style.display = 'flex';
 }
 function modalEvent4(){
-    let modal = document.getElementById('weekOne');
+    let modal = document.getElementById('weekFour');
     modal.style.display = 'flex';
 }
 function modalEvent5(){
-    let modal = document.getElementById('weekOne');
+    let modal = document.getElementById('weekFive');
     modal.style.display = 'flex';
 }
 function modalEvent6(){
-    let modal = document.getElementById('weekOne');
+    let modal = document.getElementById('weekSix');
     modal.style.display = 'flex';
 }
+
 
 function modalPopup(){
     let step1 = document.getElementById('step1');
