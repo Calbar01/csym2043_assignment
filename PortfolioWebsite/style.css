@@ -14,7 +14,7 @@ body{
     height: 100%;
     width: 100%;
     display: grid;
-    grid-template: 50% 50%;
+    grid-template: 100% 100%;
     grid-template-rows: auto;
     grid-template-areas: "header"
                         "main";
@@ -464,6 +464,29 @@ text-align: center;
 
 /* RESPONSIVE VIEW IN MOBILE */
 @media screen and (max-width: 414px){
+    /* .foreground-rectangle{
+        width: 100vh;
+        height: 100vh;
+        padding: 0px;
+    }
+
+    .info{
+        width: 250px;
+        height: 250px;
+    }
+
+    .info > p {
+        font-size: 22px;
+    }
+
+    footer{
+        position: fixed;
+        bottom: 0;
+    } */
+
     
+    
+
+
 
 }
