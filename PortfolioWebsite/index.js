@@ -1,3 +1,7 @@
+function exit(){
+    location.reload();
+}
+
 function modalEvent1(){
     let modal = document.getElementById('weekOne');
     modal.style.display = 'flex';
