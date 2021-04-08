@@ -571,4 +571,14 @@ text-align: center;
         height: 200px;
         width: 200px;
     }
+
+    /* PLANS IN MOBILE VIEW */
+    .plansText{
+        margin-left: 150px;
+        height: 350px;
+    }
+
+    .plansText > p {
+        font-size: 40px;
+    }
 }
