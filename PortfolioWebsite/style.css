@@ -327,11 +327,17 @@ text-align: center;
     padding-top: 40px;
 }
 
-.testimonialImage{
+.testimonialImage,
+.testimonialImageMobile{
     width: 225px;
     height: 225px;
     border-radius: 50%;
     margin-left: 100px;
+}
+
+.testimonialImageMobile,
+.testimonialTextMobile{
+    display: none;
 }
 
 .imageContainer{
@@ -342,7 +348,8 @@ text-align: center;
     display: inline;
 }
 
-.testimonialText{
+.testimonialText,
+.testimonialTextMobile{
     width: 276px;
     height: 218px;
     background: #ffffff;
