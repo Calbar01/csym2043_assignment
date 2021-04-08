@@ -464,6 +464,7 @@ text-align: center;
 
 /* RESPONSIVE VIEW IN MOBILE */
 @media screen and (max-width: 375px){
+    /* REUSABLE CODE FOR HEADER IN MOBILE VIEW */
     header{
         max-width: 100%;
     }
@@ -476,6 +477,7 @@ text-align: center;
         padding-left: 40px;
     }
     
+    /* INDEX IN MOBILE VIEW  */
     .peopleImage{
         height: 734px;
         width: 1134px;
@@ -497,9 +499,25 @@ text-align: center;
     .subtitle{
         grid-column-start: 2;
         grid-column-end: 2;
+        font-size: 60px;
     }
-      #1{
-         grid-column-start: 1;
-         grid-row-start: 2;
-     }
+    #one{
+        grid-column-start: 1;
+        grid-row-start: 2;
+    }
+    #two{
+        grid-column-start: 3;
+        grid-row-start: 2;
+    }
+    #three{
+        grid-column-start: 2;
+        grid-row-start: 3;
+    }
+    .info{
+        height: 300px;
+    }
+
+    .info > p{
+        font-size: 30px;
+    }
 }
