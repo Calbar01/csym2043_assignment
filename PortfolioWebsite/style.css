@@ -627,6 +627,24 @@ text-align: center;
     }
 
     /* TESTIMONIALS IN MOBILE VIEW */
+    .testimonialImageMobile,
+    .testimonialTextMobile{
+        display: flex;
+    }
+
+    .testimonialContainer{
+        height: 1800px;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 25% 25% 25% 25%;
+    }
+
+
+    .testimonialContainer > h2,
+    #testimonial
+    {
+        grid-column-start: 2;
+    }
 
     /* ENQUIRIES IN MOBILE VIEW  */
     form{
