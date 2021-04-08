@@ -473,6 +473,10 @@ text-align: center;
         font-size: 35px;
     }
 
+    h1{
+        font-size: 80px;
+    }
+
     .nav-links li {
         padding-left: 40px;
     }
@@ -526,4 +530,37 @@ text-align: center;
     }
 
     /* ABOUT IN MOBILE VIEW */
+    .aboutInfo-a,
+    .aboutInfo-b,
+    .aboutInfo-c{
+        width: 400px;
+        height: 600px;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+    }
+
+    .aboutInfo-a{
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+
+    .aboutInfo-b{
+        grid-row-start: 6;
+        grid-row-end: 6;
+    }
+
+    .aboutInfo-c{
+        grid-row-start: 4;
+        grid-row-end: 4;
+    }
+
+    .aboutContent{
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+
+    .yogaPerson{
+        grid-column-start: 1;
+        grid-row-start: 2;
+    }
 }
