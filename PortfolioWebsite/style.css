@@ -640,8 +640,7 @@ text-align: center;
     }
 
 
-    .testimonialContainer > h2,
-    #testimonial
+    .testimonialContainer > h2
     {
         grid-column-start: 2;
     }
