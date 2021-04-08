@@ -469,8 +469,11 @@ text-align: center;
     }
 
     nav{
-        font-size: 20px;
+        font-size: 35px;
     }
 
+    .nav-links li {
+        padding-left: 40px;
+    }
     
 }
