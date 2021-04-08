@@ -665,6 +665,10 @@ text-align: center;
         grid-row-start: 2;
     }
 
+    #testimonialText1{
+        grid-column-start: 1;
+        grid-row-start: 3;
+    }
 
     /* ENQUIRIES IN MOBILE VIEW  */
     form{
