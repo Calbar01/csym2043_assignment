@@ -476,4 +476,30 @@ text-align: center;
         padding-left: 40px;
     }
     
+    .peopleImage{
+        height: 734px;
+        width: 1134px;
+    }
+
+    .homeFooter{
+        position: fixed;
+        bottom: 0;
+        padding-left: 100px;
+    }
+
+    .foreground-rectangle{
+        height: 1000px;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 25% 25% 25% 25%;
+    }
+
+    .subtitle{
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+      #1{
+         grid-column-start: 1;
+         grid-row-start: 2;
+     }
 }
