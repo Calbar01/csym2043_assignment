@@ -463,30 +463,14 @@ text-align: center;
 }
 
 /* RESPONSIVE VIEW IN MOBILE */
-@media screen and (max-width: 414px){
-    /* .foreground-rectangle{
-        width: 100vh;
-        height: 100vh;
-        padding: 0px;
+@media screen and (max-width: 375px){
+    header{
+        max-width: 100%;
     }
 
-    .info{
-        width: 250px;
-        height: 250px;
+    nav{
+        font-size: 20px;
     }
-
-    .info > p {
-        font-size: 22px;
-    }
-
-    footer{
-        position: fixed;
-        bottom: 0;
-    } */
 
     
-    
-
-
-
 }
