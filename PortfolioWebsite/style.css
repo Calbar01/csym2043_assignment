@@ -26,7 +26,8 @@ header{
     grid-area: header;
 }
 
-nav{
+nav,
+.mobile-nav{
     display:flex;
     justify-content: space-around;
     align-items: center;
@@ -35,10 +36,18 @@ nav{
     font-family: 'Esteban', serif;
 }
 
-.nav-links{
+.nav-links,
+.mobile-nav-links{
     display: flex;
     justify-content: space-around;
     width: 50%;
+}
+
+.mobile-nav,
+.mobile-nav-links{
+    display: none;
+    background-color: #C5ECF4;
+    width: 100%;
 }
 
 main{
@@ -52,7 +61,8 @@ main{
     border-radius: 50px;
 }
 
-.nav-links li{
+.nav-links li,
+.mobile-nav-links li{
     list-style: none;
     padding-left: 70px;
     padding-top: 25px;
@@ -488,6 +498,7 @@ text-align: center;
         padding-left: 40px;
         display: none;
     }
+
 
     .burger{
         display: block;
