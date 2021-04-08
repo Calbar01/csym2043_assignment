@@ -28,6 +28,10 @@ function modalEvent6(){
     let modal = document.getElementById('weekSix');
     modal.style.display = 'flex';
 }
+function mobileNav(){
+    let nav = document.getElementById('mobile-nav-links');
+    nav.style.display = 'flex';
+}
 
 
 function modalPopup(){
@@ -37,6 +41,7 @@ function modalPopup(){
     let step4 = document.getElementById('step4');
     let step5 = document.getElementById('step5');
     let step6 = document.getElementById('step6');
+    let burger = document.getElementById('burger');
 
     step1.addEventListener('click', modalEvent1);
     step2.addEventListener('click', modalEvent2);
@@ -44,6 +49,7 @@ function modalPopup(){
     step4.addEventListener('click', modalEvent4);
     step5.addEventListener('click', modalEvent5);
     step6.addEventListener('click', modalEvent6);
+    burger.addEventListener('click', mobileNav);
 }
 
 
