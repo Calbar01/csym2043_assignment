@@ -581,4 +581,14 @@ text-align: center;
     .plansText > p {
         font-size: 40px;
     }
+
+    .plan{
+        display: inline;
+        vertical-align: middle;
+    }
+
+    .line{
+        transform: rotate(90deg);
+        width: 50px;
+    }
 }
