@@ -476,6 +476,10 @@ text-align: center;
     .nav-links li {
         padding-left: 40px;
     }
+
+    .icon{
+        margin-left: 250px;
+    }
     
     /* INDEX IN MOBILE VIEW  */
     .peopleImage{
@@ -520,4 +524,6 @@ text-align: center;
     .info > p{
         font-size: 30px;
     }
+
+    /* ABOUT IN MOBILE VIEW */
 }
