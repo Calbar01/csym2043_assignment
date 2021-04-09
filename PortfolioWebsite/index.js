@@ -54,3 +54,12 @@ function modalPopup(){
 
 
 document.addEventListener('DOMContentLoaded', modalPopup);
+
+//CONTACT FORM VALIDATION
+function validation(){
+    let firstname = document.forms["contactForm"]["firstname"];
+    let surname = document.forms["contactForm"]["surname"];
+    let email = document.forms["contactForm"]["email"];
+    let number = document.forms["contactForm"]["number"];
+    let title = document.forms["contactForm"]["title"];
+}
