@@ -55,23 +55,4 @@ function modalPopup(){
 
 document.addEventListener('DOMContentLoaded', modalPopup);
 
-//VALIDATION
-const firstname = document.getElementById('firstname')
-const surname = document.getElementById('surname')
-const email = document.getElementById('email')
-const number = document.getElementById('number')
-const title = document.getElementById('title')
-const form = document.getElementById('contactForm')
-const error = document.getElementById('error')
 
-form.addEventListener('submit', (e) => {
-    let messages = []
-    if (firstname.value === '' || firstname.value == null){
-        messages.push('Firstname is required')
-    }
-
-    if(messages.length > 0){
-    e.preventDefault()
-    error.innerText = messages.join(', ')
-    }
-})
