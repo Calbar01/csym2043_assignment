@@ -10,8 +10,10 @@
 </head>
 <body>
     <header>
+        <!-- Main navigation class to hold links for navigation -->
         <nav class="mainNav">
             <ul class="nav-links">
+                <!-- Main navigation links between pages -->
                 <img src="images/Logo.jpg" class="logo">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
@@ -20,12 +22,14 @@
                 <li><a href="contact.html">Enquiries</a></li>
                 <li><a href="notes.html">Notes</a></li>
             </ul>
+            <!-- Burger button for mobile view -->
             <div class="burger" id="burger" onclick="mobileNav()">
                 <div class="line1"></div>
                 <div class="line2"></div>
                 <div class="line3"></div>
             </div>
         </nav>
+        <!-- Mobile view navigation -->
         <nav class="mobileNav" id="mobileNav">
             <ul class="mobile-nav-links" id="mobile-nav-links">
                 <li><a href="index.html">Home</a></li>
@@ -38,6 +42,7 @@
         </nav>
     </header>
     <main>
+        <!-- Created a text area with images for the user to input their own notes. -->
        <div class="notesContainer">
            <h1>How are you today?</h1>
            <div class="emojiContainer">
@@ -49,6 +54,7 @@
                <textarea class="notesText">What's on your mind?...</textarea>
        </div>
     </main>
+    <!-- Social links -->
     <footer class="footer">
         <a href="#"><img src="images/facebook.png" class="icon"></a>
         <a href="#"><img src="images/instagram.png" class="icon" ></a>
