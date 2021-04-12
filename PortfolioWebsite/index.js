@@ -1,4 +1,5 @@
 //MODALS
+//If any image is clciked it will load its own modal function, and same for the burger and the exit button
 function exit(){
     location.reload();
 }
@@ -34,6 +35,7 @@ function mobileNav(){
 }
 
 
+// Initialises each modal in the own variable, and sets an event listener for each one
 function modalPopup(){
     let step1 = document.getElementById('step1');
     let step2 = document.getElementById('step2');
@@ -53,6 +55,7 @@ function modalPopup(){
 }
 
 
+//When the content of the screen is loaded, load the modalPopup function
 document.addEventListener('DOMContentLoaded', modalPopup);
 
 
