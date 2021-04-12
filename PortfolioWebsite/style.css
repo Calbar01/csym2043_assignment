@@ -1,4 +1,5 @@
 /* FONT IMPORT  */
+/* Imports two fonts to use from google fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Esteban&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Scheherazade&display=swap');
 
@@ -10,6 +11,8 @@
 
 
 /* REUSABLE CODE THROUGHOUT */
+
+/* Sets the body to display a grid with set template areas */
 body{
     height: 100%;
     width: 100%;
@@ -21,11 +24,13 @@ body{
     overflow: hidden;
 }
 
+/* Gives header area a background colour */
 header{
     background: #9CDDEB;
     grid-area: header;
 }
 
+/* Positions navigation links */
 nav,
 .mobile-nav{
     display:flex;
@@ -43,6 +48,7 @@ nav,
     width: 50%;
 }
 
+/* Initialises mobile navigation to not be seen on desktop view */
 .mobile-nav,
 .mobile-nav-links{
     display: none;
@@ -61,6 +67,7 @@ main{
     border-radius: 50px;
 }
 
+/* Styles position of navigation links as well as getting rid of the bullet points */
 .nav-links li,
 .mobile-nav-links li{
     list-style: none;
@@ -69,6 +76,7 @@ main{
     
 }
 
+/* Styles all textual elements with individual formats, such as the underline on links, font sizes and styles. */
 a{
     color: black;
     text-decoration: underline;
@@ -98,6 +106,7 @@ p{
     }
 
 /* HOME PAGE  */
+/* Styles size and position of the main rectangles on home page */
 .background-rectangle{
     width: 1298px;
     height: 290px;
@@ -145,6 +154,7 @@ p{
 }
 
 /* REUSABLE FOOTER */
+/* Styles footer to be reused on several pages */
 .footer{
 display: inline;
 float: left;
@@ -163,6 +173,7 @@ background: #9CDDEB;
 }
 
 /* ABOUT US SECTION */
+/* Sets a grid template area to be used on about us page */
 .aboutContainer{
     display: grid;
     grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
@@ -170,6 +181,7 @@ background: #9CDDEB;
     height: 100%;
 }
 
+/* Each text box given a column and row to fill */
 .aboutInfo-a,
 .aboutInfo-b,
 .aboutInfo-c{
@@ -231,6 +243,8 @@ background: #9CDDEB;
 
 /* PLANS SECTION  */
 /*Help found from https://stackoverflow.com/questions/40077096/how-do-i-draw-a-horizontal-line-between-two-circles-with-css*/
+
+/* Styles each image, line and number with circle on plans section to display inline and with a specified size */
 .plansText{
 width: 1239px;
 height: 219px;
@@ -270,7 +284,7 @@ text-align: center;
     }
 
 /* MODAL STYLING */
-
+/* Style all the different modals but setting them all to not be displayed at all, only displayed on click of button */
 .weekOne,
 .weekTwo,
 .weekThree,
@@ -315,6 +329,7 @@ text-align: center;
 }
 
 /* TESTIMONIAL SECTION  */
+/* Styles the testimonials container and elements inside  */
 .testimonialContainer{
     width: 1142px;
     height: 680px;
@@ -375,6 +390,7 @@ text-align: center;
 }
 
 /* ENQUIRY SECTION */
+/* Styles the form section, as well as the text inside and the input areas */
 div.form{
     display: block;
     text-align: center;
@@ -423,6 +439,7 @@ input[type=text], button{
   }
 
 /* NOTES SECTION */
+/* Styles notes container for the specified colours and size and position */
 .notesContainer{
 margin: auto;
 position: relative;
@@ -467,7 +484,7 @@ text-align: center;
 }
 
 /* BURGER NAVIGATION */
-
+/* Styles the burger navigation, but sets display to none to not be seen on desktop view */
 .burger{
     display: none;
 }
@@ -480,6 +497,7 @@ text-align: center;
 }
 
 /* RESPONSIVE VIEW IN MOBILE */
+/* Media query to change display of pages if the viewport hits a certain maximum width */
 @media screen and (max-width: 375px){
     /* REUSABLE CODE FOR HEADER IN MOBILE VIEW */
     header{
@@ -494,12 +512,13 @@ text-align: center;
         font-size: 80px;
     }
 
+    /* Removes desktop navigation */
     .nav-links li {
         padding-left: 40px;
         display: none;
     }
 
-
+    /* Sets the burger to be visible  */
     .burger{
         display: block;
     }
@@ -520,6 +539,7 @@ text-align: center;
         padding-left: 100px;
     }
 
+    /* Resets the grid layout to display a certain template areas on mobile view */
     .foreground-rectangle{
         height: 1000px;
         display: grid;
@@ -553,6 +573,7 @@ text-align: center;
     }
 
     /* ABOUT IN MOBILE VIEW */
+    /* Adds template columns and rows for about us page in mobile view to lay them out in a better format */
     .aboutInfo-a,
     .aboutInfo-b,
     .aboutInfo-c{
@@ -596,6 +617,7 @@ text-align: center;
     }
 
     /* PLANS IN MOBILE VIEW */
+    /* Resizes the plans container in mobile view */
     .plansText{
         margin-left: 0px;
         height: 280px;
@@ -605,6 +627,7 @@ text-align: center;
         font-size: 40px;
     }
 
+    /* Realigns plans to be shown vertically rather than horizontally */
     .plan{
         display: inline;
         vertical-align: middle;
@@ -643,11 +666,13 @@ text-align: center;
     }
 
     /* TESTIMONIALS IN MOBILE VIEW */
+    /* Sets the mobile areas to be shown in mobile but still hidden on desktop */
     .testimonialImageMobile,
     .testimonialTextMobile{
         display: flex;
     }
 
+    /* Sets template areas for testimonials in mobile view */
     .testimonialContainer{
         height: 1800px;
         display: grid;
@@ -655,6 +680,7 @@ text-align: center;
         grid-template-rows: 20% 20% 20% 20% 20%;
     }
 
+    /* Setting each testimonials in their own column and row  */
     .testimonialContainer > h2,
     .testimonialContainer > p
     {
@@ -707,6 +733,7 @@ text-align: center;
     }
 
     /* ENQUIRIES IN MOBILE VIEW  */
+    /* Resizing elements within the mobile view of the form page */
     form{
         margin-top: 150px;
         height: 1500px;
@@ -728,6 +755,7 @@ text-align: center;
     }
 
     /* NOTES IN MOBILE VIEW */
+    /* Resetting the notes container and elements within the the notes to be better fit for mobile view */
     .notesContainer{
         height: 1750px;
         margin-top: 100px;
